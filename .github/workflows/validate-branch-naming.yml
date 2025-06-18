@@ -1,7 +1,10 @@
 name: Enforce Branch Naming Convention
 
 on:
-  create:
+  push:
+    branches:
+      - '**'
+  pull_request:
     branches:
       - '**'
 
