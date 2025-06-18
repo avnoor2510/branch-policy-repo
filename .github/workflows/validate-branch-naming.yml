@@ -21,7 +21,7 @@ jobs:
             exit 0
           else
             echo "❌ Invalid branch name: '$BRANCH_NAME'"
-            echo "Expected format: story|defect|hotfix/<ms_id>US<jira_number>"
-            echo "Example: story/asin1329US12345"
+            echo "Expected format: story|defect|hotfix/<ms_id>/US<jira_number>"
+            echo "Example: story/asin1329/US12345"
             exit 1
           fi
